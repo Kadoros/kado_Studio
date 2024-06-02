@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ToDo from "./ToDo";
-import CoinTracker from "./CoinTracker";
+
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+console.log("hello world");
 root.render(
   <React.StrictMode>
-    <ToDo />
-    <hr />
-    <CoinTracker />
+    <App />
   </React.StrictMode>
 );
